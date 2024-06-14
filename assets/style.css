@@ -7,20 +7,32 @@ body {
     display: flexbox;
     flex-direction: row;
     flex-wrap: wrap;
+
 }
 
 .justify-right {
+    display: flex;
     justify-content: right;
 }
 
 .justify-center {
+    display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .justify-left {
+    display: flex;
     justify-content: left;
 }
 
+ul a {
+    display: flex;
+    color: rgb(65, 136, 100);
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
 
 .footer {
     background-color: rgb(170, 49, 49);
