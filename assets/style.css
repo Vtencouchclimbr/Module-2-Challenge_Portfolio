@@ -29,23 +29,29 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: #86347a;
+    background-image: ;
+    padding: 30px;
     border-radius: 50%;
 }
 
 .justify-left {
     display: flex;
     justify-content: left;
-    margin-top: 50px;
+    margin-top: 100px;
     font-size: 25px;
 }
 
-.justify-list {
+.link-list {
     display: flex;
     justify-content: center;
     text-align: center;
     gap: 7px;
     margin-right: 40px;
+}
+
+.link-list:hover {
+    background-color:;
+    color: rgb(207, 183, 75);
 }
 
 ul a {
@@ -72,3 +78,32 @@ ul {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  @media screen and (max-width: 992px) {
+    header {
+      background: #772014;
+    }
+  }
+  
+  /* Large smartphones - navbar changes color - up to 768px */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #bb8588;
+    }
+    
+  }
+  
+  /* Small smartphones - image placeholders change color - up to 576px*/
+  @media screen and (max-width: 576px ) {
+    .sample-img {
+      background-color: #8ac4ff;
+    }
+  }
