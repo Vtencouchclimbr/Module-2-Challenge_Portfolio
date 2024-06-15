@@ -4,7 +4,7 @@
 
 
 body {
-    background-color: #3a6791;
+    background-color: #978b63;
     font-family: Arial, Helvetica, sans-serif;
   }
 
@@ -19,7 +19,8 @@ body {
 .welcome {
   color: #091016;
   margin-left: 50px;
-  border: #091016;
+  padding: 10px;
+  border: #b6c024;
   border-style: dotted;
 }
 
@@ -28,6 +29,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
+
 }
 
 .mypic {
@@ -37,6 +39,8 @@ body {
   gap: 7px;
   font-size: 20px;
   text-align: center;
+  border-color: #091016;
+  border-style: ridge;
 }
 
 .link-list {
@@ -61,12 +65,59 @@ ul {
 .container2 {
     display: flex;
     flex-direction: column;
+    margin-bottom: 150px;
 }
 
 .container3 {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+
+.about {
+  display: flex;
+  margin-top: 500px;
+  margin-bottom: 50px;
+}
+
+.about-info {
+  margin-left: 100px;
+  list-style-type: none;
+}
+
+.contact {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 190px;
+}
+
+.contact-info {
+  margin-left: 100px;
+  color: #53265c;
+  list-style-type: none;
+}
+
+.contact-info:hover {
+  font-size:50px;
+  color: #3f21c4;
+  display: block;
+  cursor: grab;
+}
+
+.hide {
+  display: none;
+}
+
+.project {
+  display: flex;
+  margin-bottom: 150px;
+  margin-left: 190px;
+}
+
+.project-info {
+  margin-left: 100px;
+
 }
 
 .footer {
