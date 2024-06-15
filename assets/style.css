@@ -3,39 +3,66 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
 
+  header {
+    list-style-type: none;
+    display: fixed ;
+  }
+
+  header a {
+    text-decoration: none;
+  }
+
 .container1 {
     display: flexbox;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
 
 .justify-right {
     display: flex;
     justify-content: right;
+    margin-bottom: 30px;
+    font-size: 25px;
 }
 
 .justify-center {
     display: flex;
     justify-content: center;
     text-align: center;
+    background-color: #86347a;
+    border-radius: 50%;
 }
 
 .justify-left {
     display: flex;
     justify-content: left;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.justify-list {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 7px;
+    margin-right: 40px;
 }
 
 ul a {
     display: flex;
-    color: rgb(65, 136, 100);
+    color: rgb(74, 187, 130);
     justify-content: center;
     text-align: center;
     text-decoration: none;
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .footer {
-    background-color: rgb(170, 49, 49);
+    background-color: #234463;
     text-align: center;
     position: fixed;
     left: 0;
