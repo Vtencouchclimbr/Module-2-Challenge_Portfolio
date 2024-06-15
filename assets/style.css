@@ -1,3 +1,8 @@
+:root {
+    --darkblue: #234463;
+}
+
+
 body {
     background-color: #3a6791;
     font-family: Arial, Helvetica, sans-serif;
@@ -5,23 +10,43 @@ body {
 
   header {
     list-style-type: none;
-    display: fixed ;
+    display: flex;
   }
 
   header a {
     text-decoration: none;
   }
 
+  header p {
+    text-align: center;
+  }
+
 .container1 {
     display: flexbox;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 300px;
+}
+
+.container2 {
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 300px;
+}
+
+.container3 {
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 300px;
 }
 
 .justify-right {
     display: flex;
     justify-content: right;
     margin-bottom: 30px;
+    margin-right: 30px;
     font-size: 25px;
 }
 
@@ -47,10 +72,11 @@ body {
     text-align: center;
     gap: 7px;
     margin-right: 40px;
+    font-size: 20px;
 }
 
 .link-list:hover {
-    background-color:;
+    background-color: var(--darkblue);
     color: rgb(207, 183, 75);
 }
 
@@ -68,7 +94,7 @@ ul {
 }
 
 .footer {
-    background-color: #234463;
+    background-color: var(--darkblue);
     text-align: center;
     position: fixed;
     left: 0;
@@ -82,28 +108,34 @@ ul {
 .dot {
     height: 25px;
     width: 25px;
-    background-color: #bbb;
+    background-color: #772014;
     border-radius: 50%;
     display: inline-block;
   }
 
-  @media screen and (max-width: 992px) {
-    header {
-      background: #772014;
-    }
+@media screen and (max-width: 992px) {
+  .dot {
+    background:  var(--darkblue);
   }
-  
-  /* Large smartphones - navbar changes color - up to 768px */
-  @media screen and (max-width: 768px) {
-    nav {
-      background-color: #bb8588;
-    }
-    
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background: #772014;
+    display: block;
   }
-  
-  /* Small smartphones - image placeholders change color - up to 576px*/
-  @media screen and (max-width: 576px ) {
-    .sample-img {
-      background-color: #8ac4ff;
-    }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    background-color: var(--darkblue);
+    display: block;
   }
+}
+
+@media screen and (max-width: 576px ) {
+  .sample-img {
+    background-color: #8ac4ff;
+    display: block;
+  }
+}
