@@ -1,5 +1,6 @@
 :root {
     --darkblue: #234463;
+    --orange: #b6c024;
 }
 
 
@@ -20,7 +21,7 @@ body {
   color: #091016;
   margin-left: 50px;
   padding: 10px;
-  border: #b6c024;
+  border: var(--orange);
   border-style: dotted;
 }
 
@@ -54,12 +55,13 @@ body {
   list-style-type: none;
 }
 
-ul {
-  list-style-type: none;
+nav a:hover {
+  background-color: var(--orange);
+  font-size: 35px;
 }
 
-.link-list:hover {
-  background-color: ;
+ul {
+  list-style-type: none;
 }
 
 .container2 {
@@ -77,24 +79,24 @@ ul {
 
 .about {
   display: flex;
-  margin-top: 500px;
-  margin-bottom: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 600px;
+
 }
 
 .about-info {
-  margin-left: 100px;
   list-style-type: none;
 }
 
 .contact {
   display: flex;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 190px;
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
 
 .contact-info {
-  margin-left: 100px;
   color: #53265c;
   list-style-type: none;
 }
@@ -112,13 +114,9 @@ ul {
 
 .project {
   display: flex;
-  margin-bottom: 150px;
-  margin-left: 190px;
-}
-
-.project-info {
-  margin-left: 100px;
-
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 200px;
 }
 
 .footer {
@@ -131,6 +129,11 @@ ul {
     margin-top: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.footlink:hover {
+  color: red;
+  font-size: 35px;
 }
 
 @media screen and (max-width: 992px) {
