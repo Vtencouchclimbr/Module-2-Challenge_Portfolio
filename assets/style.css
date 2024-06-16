@@ -66,6 +66,7 @@ ul {
     display: flex;
     flex-direction: column;
     margin-bottom: 150px;
+    margin-right: 30px;
 }
 
 .container3 {
@@ -133,12 +134,6 @@ ul {
 }
 
 @media screen and (max-width: 992px) {
-  .dot {
-    background:  var(--darkblue);
-  }
-}
-
-@media screen and (max-width: 992px) {
   body {
     background: #772014;
     display: block;
@@ -146,14 +141,14 @@ ul {
 }
 
 @media screen and (max-width: 768px) {
-  nav {
+  body {
     background-color: var(--darkblue);
     display: block;
   }
 }
 
 @media screen and (max-width: 576px ) {
-  .sample-img {
+  body {
     background-color: #8ac4ff;
     display: block;
   }
