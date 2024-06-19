@@ -13,8 +13,8 @@
 
 This is my second project for the bootcamp. This project is meant to show what we have been learning so far and serve as a template to improve upon. This exercise includes manipulating images, adding links to completed projects for future use, as well as using semantic html elements and other fundamental concepts. For this challenge, I took extra time to explore flexbox. This is, hopefully, reflected in my code and structure.
 
-Visit the deployed site here: https://vtencouchclimbr.github.io/Module-1-Challenge/
-Visit the github repo here: https://github.com/Vtencouchclimbr/Module-1-Challenge
+Visit the deployed site here: https://vtencouchclimbr.github.io/Module-2-Challenge_Portfolio/
+Visit the github repo here: https://github.com/Vtencouchclimbr/Module-2-Challenge_Portfolio
 
 
 An example of multiple link types and containers/divisions shown below:
