@@ -139,8 +139,13 @@ ul {
     padding-bottom: 20px;
 }
 
+.footlink {
+  display: flex;
+  justify-content: center;
+}
+
 .footlink:hover {
-  color: red;
+  background-color:;
   font-size: 35px;
 }
 
@@ -149,7 +154,7 @@ ul {
     background: #772014;
     display: block;
     margin-left: 0;
-    width: 100%;
+    width: 50%;
   }
 }
 
@@ -158,7 +163,7 @@ ul {
     background-color: var(--darkblue);
     display: block;
     margin-left: 0;
-    width: 100%;
+    width: 50%;
   }
 }
 
@@ -167,6 +172,6 @@ ul {
     background-color: #8ac4ff;
     display: block;
     margin-left: 0;
-    width: 100%;
+    width: 50%;
   }
 }
