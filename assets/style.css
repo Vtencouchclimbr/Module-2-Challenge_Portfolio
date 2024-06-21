@@ -149,12 +149,12 @@ ul {
   font-size: 35px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 960px) {
   body {
     background: #772014;
     display: block;
     margin-left: 0;
-    width: 50%;
+    /*width: 50%;*/
   }
 }
 
@@ -173,5 +173,6 @@ ul {
     display: block;
     margin-left: 0;
     width: 50%;
+    min-height: 50vh;
   }
 }
